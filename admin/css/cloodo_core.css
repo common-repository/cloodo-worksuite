@@ -1,0 +1,68 @@
+/* cloodo core css version 1 */
+iframe#cloodo_link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#wpcontent {
+    position: absolute;
+    bottom: 0;
+    left: 140px;
+    width: auto;
+    right: 0;
+    margin-left: 0;
+    overflow: hidden;
+}
+
+#wpbody {
+    float: unset;
+    height: 100%;
+}
+
+body.folded #wpcontent {
+    left: 17px;
+    margin-left: 0;
+}
+
+#cloodo_admin_default {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+}
+
+.loading-1 {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #2d58af;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 999;
+}
+
+#cloodo_admin_default>div {
+    position: relative;
+    top: 100px;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

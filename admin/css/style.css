@@ -1,0 +1,35 @@
+/* css over text ... */
+.over_text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+/* style setting  page */
+.checked {
+    display: none;
+}
+
+.setting-box {
+    display: flex;
+}
+
+.sync-employees,
+.sync-clients {
+    padding: 30px;
+    border-radius: 6px;
+    background: #fff;
+    min-height: 200px;
+    box-shadow: 0 0.25rem 1.125rem rgba(75, 70, 92, 0.1);
+    max-width: 33.33%;
+}
+
+.sync-employees {
+    margin-right: 30px;
+}
+
+.txt-setting {
+    margin-top: 10px;
+}
